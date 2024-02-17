@@ -6,7 +6,7 @@ import hero_logo from "../components/images/hero_logo.png";
 function Hero() {
   return (
     <div className="max-w-[1200px] mx-auto flex w-full h-[100vh] overflow-hidden justify-center">
-      <div className="">
+      <div className="h-screen">
         <div className="banner-section">
           <div className="-z-10 absolute left-0 top-0 h-full w-full overflow-hidden">
             <video
@@ -20,9 +20,9 @@ function Hero() {
           </div>
         </div>
         {/*  */}
-        <div className="logo relative z-[10] perfectWidth">
-          <div className="flex items-center justify-between mx-auto mt-4 ">
-            <div className="relative flex items-center justify-center font-twist text-5xl tracking-tighter ">
+        <div className="logo z-[10] perfectWidth">
+          <div className="absolute flex justify-between items-center NavperfectWidth mx-auto mt-4 sm:px-12 lg:px-0">
+            <div className="relative flex items-center justify-center font-twist text-5xl tracking-tighter">
               <div>
                 <p className="linear-wipe font-twister max-sm:text-4xl max-sm:text-center text-5xl text-transparent  md:text-5xl">
                   DWOPE
@@ -40,7 +40,7 @@ function Hero() {
               />
             </a>
           </div>
-          <div className="flex flex-col mt-40 gap-4 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center">
+          <div className="flex flex-col  gap-4 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
             <div>
               <img src={hero_logo} alt="logo" />
             </div>

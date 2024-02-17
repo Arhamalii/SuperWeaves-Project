@@ -407,10 +407,16 @@ p {
   .perfectWidth {
     width: 1200px;
   }
+  .NavperfectWidth {
+    width: 1200px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .perfectWidth {
     width: 100%;
+  }
+  .NavperfectWidth {
+    width: 100vw;
   }
 }

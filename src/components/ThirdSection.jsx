@@ -1,5 +1,7 @@
 import React from "react";
 import banner from "../components/Video/Pearl_Texture_2.mp4";
+import bg_2 from "../components/backgrounds/bg_2.png";
+import bg_5 from "../components/backgrounds/bg_5.png";
 import luksoPng from "../components/images/lukso_png.png";
 import bgShadow2 from "../components/images/shadow1.png";
 import bgShadow3 from "../components/images/shadow3.png";
@@ -12,7 +14,23 @@ import Footer from "./global/Footer";
 function ThirdSection() {
   return (
     <>
-      {/* <div clas></div> */}
+      {/* left backgrounds */}
+      <div className="absolute w-screen h-[300px] top-[156rem] -z-10 left-[-90px] md:left-[-40px] ">
+        <img
+          className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
+          src={bg_2}
+          alt=""
+        />
+      </div>
+
+      <div className="absolute w-screen h-[300px] top-[307rem] -z-10 left-[-90px] md:left-[-20px] ">
+        <img
+          className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
+          src={bg_5}
+          alt=""
+        />
+      </div>
+      {/* right backgrounds */}
 
       <div className="max-w-[1200px]  mx-auto">
         <div className="p-12 max-sm:p-8 mt-[10rem] max-sm:mt-0 relative ">
