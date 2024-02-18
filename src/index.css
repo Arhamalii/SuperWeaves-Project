@@ -116,6 +116,24 @@ body {
   animation: textShine 5s ease-in-out infinite alternate;
 }
 
+.tradeBetGameText {
+  background: linear-gradient(
+    90deg,
+    #d90a27 9.29%,
+    #f46124 25.9%,
+    #f3c70d 38.57%,
+    #017e3d 55%,
+    #0841b6 67.16%,
+    #a4047c 82.57%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
 .text {
   background: linear-gradient(
     to bottom right,
@@ -346,7 +364,7 @@ p {
 }
 
 .headingText {
-  background: url("./components/images//headingTextbg.png");
+  background: url("./components/images//headingTextbg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-clip: text;
@@ -401,7 +419,7 @@ p {
 }
 
 .faqBg {
-  background: url("./components/images/headingTextbg.png");
+  background: url("./components/images/headingTextbg2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -417,6 +435,9 @@ p {
   .perfectWidth {
     width: 1200px;
   }
+  .faqsBg {
+    width: 1200px;
+  }
   .NavperfectWidth {
     width: 1200px;
   }
@@ -429,9 +450,12 @@ p {
   .NavperfectWidth {
     width: 100vw;
   }
+  .faqsBg {
+    width: 95vw;
+  }
 }
 
-.custonmerBG {
+.faqRBg1 {
   position: absolute;
   bottom: 24rem;
   right: 0px;
@@ -442,4 +466,41 @@ p {
   /* background: #; */
   height: 500px;
   width: 500px;
+}
+
+.faqRBg2 {
+  position: absolute;
+  bottom: 55rem;
+  right: 0px;
+  background: url("./components/backgrounds/ft-bg_3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background: #; */
+  height: 500px;
+  width: 500px;
+}
+
+#dwopRbg {
+  position: absolute;
+  top: 286rem;
+  right: -84px;
+  background: url("./components/backgrounds/bg_6.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 70%;
+  width: 300px;
+}
+
+.StatrBg {
+  position: absolute;
+  top: 286rem;
+  right: -84px;
+  background: url("./components/backgrounds/bg_3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 70%;
+  width: 300px;
 }

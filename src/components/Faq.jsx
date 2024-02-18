@@ -2,7 +2,6 @@ import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
 import fqBG4 from "./backgrounds/ft-bg_1.png";
 import fqBG3 from "./backgrounds/ft-bg_2.png";
-import fqBG1 from "./backgrounds/ft-bg_3.png";
 // import fqBG2 from "./backgrounds/ft-bg_4.png";
 import dropDown from "./icons/DropDown.png";
 
@@ -39,12 +38,7 @@ function Faq() {
       answer:
         "DWØPE is committed to fair play and transparency across all aspects of our platform. By leveraging blockchain technology, every bet, trading card game outcome, and transaction is recorded on a decentralized ledger, ensuring immutable proof of all activities. This not only guarantees fairness but also provides our users with complete visibility and trust in the integrity of our betting and gaming environments.",
     },
-    {
-      question:
-        "What makes DWØPE's DWOOBz NFT collection unique in the digital marketplace?",
-      answer:
-        "DWØPE's NFTs stand out in the digital marketplace for their intrinsic utility and integration within our ecosystem. From granting access to exclusive content and areas within the metaverse to offering enhancements in our gaming and betting modules, our NFTs are designed to enrich the user experience, making them a valuable asset for both collectors and active platform participants. ",
-    },
+
     //
     // Add more FAQ items as needed
   ];
@@ -68,15 +62,15 @@ function Faq() {
         />
       </div>
       {/* faq bg right */}
-      <div className="overflow-hidden">
-        <img
+      <div className="faqRBg2">
+        {/* <img
           className="w-[120px] absolute left-[89rem] mb-[70rem]"
           src={fqBG1}
           alt=""
-        />
+        /> */}
       </div>
 
-      <div className="custonmerBG">
+      <div className="faqRBg1">
         {/* <img
           className="w-[120px] absolute left-[87rem] mt-[40rem]"
           src={fqBG2}
@@ -85,7 +79,7 @@ function Faq() {
       </div>
       {/*  */}
 
-      <div className="faq-section relative max-w-[1300px] mx-auto">
+      <div className="faq-section relative max-w-[1300px] mx-auto px- md:px-12 ">
         {/* <div className="absolute max-sm:hidden  left-[-25rem] opacity-30">
         <img width={200} src={fl1} alt="" />
       </div>
@@ -98,7 +92,7 @@ function Faq() {
       <div className="absolute max-sm:hidden  right-[-20rem] opacity-30 bottom-[-150px] rotate-45 overflow-hidden">
         <img width={150} src={fl4} alt="" />
       </div> */}
-        <div className="flex flex-col justify-center relative items-center gap-14">
+        <div className="flex flex-col justify-center relative items-center gap-14 ">
           {/* <div className="absolute left-[-600px]">
           <img src={yellowBG} alt="" />
         </div> */}
@@ -109,7 +103,7 @@ function Faq() {
             </h1>
           </div>
           <div className="flex max-sm:flex-col gap-24 max-sm:gap-10 text-[#CCCCCC]">
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 faqsBg">
               <div className="mt-10 max-sm:mt-4 w-full flex flex-col gap-10 max-sm:gap-4">
                 {faqs.map((faq, index) => (
                   <div key={index} className="flex-col max-sm:p-0 ">

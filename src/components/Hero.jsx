@@ -24,7 +24,7 @@ function Hero() {
             <div>
               <img src={hero_logo} alt="logo" />
             </div>
-            <h1 className="font-superLagend text-[3.2rem] max-sm:text-3xl max-sm:text-center text tracking-[0.1em]">
+            <h1 className="font-superLagend text-[3.2rem] max-sm:text-3xl max-sm:text-center tradeBetGameText tracking-[0.1em]">
               Trade, Bet & Game
             </h1>
             <h1 className="font-twister text-[3.2rem] max-sm:text-[1.2rem] linear-sub text-transparent  headingText">

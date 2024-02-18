@@ -1,10 +1,8 @@
 import React from "react";
 import banner from "../components/Video/Pearl_Texture_2.mp4";
 import bg_2 from "../components/backgrounds/bg_2.png";
-import bg_3 from "../components/backgrounds/bg_3.png";
 import bg_4 from "../components/backgrounds/bg_4.png";
 import bg_5 from "../components/backgrounds/bg_5.png";
-import bg_6 from "../components/backgrounds/bg_6.png";
 import bg_shadow from "../components/bg/Ellipse 30.png";
 import luksoPng from "../components/images/lukso_png.png";
 import unrealPng from "../components/images/unreal_png.png";
@@ -49,20 +47,20 @@ function ThirdSection() {
         />
       </div>
 
-      <div className="overflow-hidden ">
-        <img
+      <div className="StatrBg">
+        {/* <img
           className="w-[190px] absolute left-[83rem] top-[140rem]"
           src={bg_3}
           alt=""
-        />
+        /> */}
       </div>
-      <div className="overflow-hidden ">
-        <img
+
+      {/* <img
           className="w-[220px] absolute left-[83rem] top-[288rem]"
           src={bg_6}
           alt=""
-        />
-      </div>
+        /> */}
+      <div id="dwopRbg"></div>
 
       {/*  */}
       <div className="max-w-[1200px]  mx-auto ">
@@ -193,7 +191,7 @@ function ThirdSection() {
             </div>
 
             {/*  */}
-            <div className="relative">
+            <div className="relative ">
               <div className="-z-10 left-0 top-[7rem] h-[400px] w-full overflow-hidden my-20 ">
                 <video
                   className=" min-h-full min-w-full object-cover"
@@ -261,7 +259,7 @@ function ThirdSection() {
                   >
                     <div className="overflow-hidden">
                       <img
-                        className="object-cover scale-100 hover:scale-110 ease-in duration-500 rounded-2xl bg-no-repeat bg-center h-[311px]"
+                        className="object-cover ease-in duration-500 rounded-2xl bg-no-repeat bg-center h-[311px]"
                         width={360}
                         src={item.image}
                         alt="av"
