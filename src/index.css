@@ -117,13 +117,20 @@ body {
 }
 
 .text {
-  background: linear-gradient(to bottom right, #d90a27, #a4047c);
+  background: linear-gradient(
+    to bottom right,
+    #d90a27,
+    #a4047c,
+    #d90a27,
+    #a4047c
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   background-size: 500% auto;
   color: transparent; /* Add this line to hide original text color */
+  animation: textShine 5s ease-in-out infinite alternate;
 }
 
 .text-2 {
@@ -395,6 +402,9 @@ p {
 
 .faqBg {
   background: url("./components/images/headingTextbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg_5 {
@@ -419,4 +429,17 @@ p {
   .NavperfectWidth {
     width: 100vw;
   }
+}
+
+.custonmerBG {
+  position: absolute;
+  bottom: 24rem;
+  right: 0px;
+  background: url("./components/backgrounds/ft-bg_4.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* background: #; */
+  height: 500px;
+  width: 500px;
 }

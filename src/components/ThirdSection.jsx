@@ -1,10 +1,12 @@
 import React from "react";
 import banner from "../components/Video/Pearl_Texture_2.mp4";
 import bg_2 from "../components/backgrounds/bg_2.png";
+import bg_3 from "../components/backgrounds/bg_3.png";
+import bg_4 from "../components/backgrounds/bg_4.png";
 import bg_5 from "../components/backgrounds/bg_5.png";
+import bg_6 from "../components/backgrounds/bg_6.png";
+import bg_shadow from "../components/bg/Ellipse 30.png";
 import luksoPng from "../components/images/lukso_png.png";
-import bgShadow2 from "../components/images/shadow1.png";
-import bgShadow3 from "../components/images/shadow3.png";
 import unrealPng from "../components/images/unreal_png.png";
 import "../index.css";
 import Faq from "./Faq";
@@ -30,23 +32,41 @@ function ThirdSection() {
           alt=""
         />
       </div>
+
+      <div className="absolute w-screen h-[300px] top-[270rem] -z-20 left-[-90px] md:left-[0px] opacity-50">
+        <img
+          className="max-sm:top-[26rem] w-[600px]  max-sm:-z-10"
+          src={bg_shadow}
+          alt=""
+        />
+      </div>
       {/* right backgrounds */}
+      <div className="overflow-hidden max-w-[100vw]">
+        <img
+          className="w-[170px] absolute left-[85rem] top-[69rem]"
+          src={bg_4}
+          alt=""
+        />
+      </div>
 
-      <div className="max-w-[1200px]  mx-auto">
+      <div className="overflow-hidden ">
+        <img
+          className="w-[190px] absolute left-[83rem] top-[140rem]"
+          src={bg_3}
+          alt=""
+        />
+      </div>
+      <div className="overflow-hidden ">
+        <img
+          className="w-[220px] absolute left-[83rem] top-[288rem]"
+          src={bg_6}
+          alt=""
+        />
+      </div>
+
+      {/*  */}
+      <div className="max-w-[1200px]  mx-auto ">
         <div className="p-12 max-sm:p-8 mt-[10rem] max-sm:mt-0 relative ">
-          {/* <div className="video-text-container">
-            <video
-              autoPlay
-              muted
-              loop
-              className="video-background"
-              src={videoBG}
-            ></video>
-            <h1 className="font-superLagend videoText z-10  text-3xl max-sm:text-2xl text-center text-overlay">
-              Play, Connect, Conquer
-            </h1>
-          </div> */}
-
           <h1 className="font-superLagend videoText z-10  text-5xl max-sm:text-2xl text-center headingText">
             Play, Connect, Conquer
           </h1>
@@ -62,22 +82,6 @@ function ThirdSection() {
       </div>
 
       <div className="trade-sec relative">
-        <div className="lg:flex md:flex max-w-[1200px] mx-auto">
-          <div className="max-w-[1200px] mx-auto w-full text-left absolute max-sm:relative top-16 max-sm:top-[-140px] flex">
-            <div className="overflow-hidden">
-              <img
-                className="w-96 absolute left-[64rem] overflow-hidden opacity-30 max-sm:z-0 max-sm:w-56 max-sm:absolute max-sm:top-[5rem] max-sm:left-[-6rem]"
-                src={bgShadow2}
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* <div className="absolute">
-          <img className="w-80  right-[-20rem] opacity-30 max-sm:z-0 max-sm:w-56 max-sm:absolute max-sm:top-[20rem] max-sm:left-60" src={bgShadow2} alt="" />
-        </div> */}
-
         <div className="-z-10 left-0 top-[7rem] h-[400px] w-full overflow-hidden">
           <video
             className=" min-h-full min-w-full object-cover"
@@ -135,19 +139,23 @@ function ThirdSection() {
               
               </p> */}
             </div>
-            <div className="card-line flex items-center w-full max-w-[1880px] mx-auto">
+            <div className="card-line flex items-center justify-center w-full max-w-[1880px] mx-auto">
               <div>
                 <div className="polygon absolute right-96">
                   {/* <img className="mr-60" src={pinkBlue} alt="" /> */}
                 </div>
                 <div className="cards relative flex max-sm:bottom-[200px] max-sm:top-[2.4rem]">
-                  <div
-                    className="md:flex md:flex-wrap justify-center items-center gap-20   max-sm:p-4 max-sm:
-              grid max-sm:grid-cols-2 "
-                  >
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[6rem] place-items-center">
                     {cardData.map((id, index) => (
-                      <div className="card w-[300px] max-sm:w-[200px] max-sm:pr-8">
-                        <img className="" src={id.image} alt="" />
+                      <div className="card  max-sm:w-[200px] max-sm:pr-8">
+                        <img
+                          // // className={
+                          // //   index === 0 || 5 ? `w-[320px] h-[300px]` : ""
+                          // // }
+                          className="h-[260px] min-w-[253px] "
+                          src={id.image}
+                          alt=""
+                        />
                       </div>
                       // <Canvas
                       //   style={{ height: "320px", width: "200px" }}
@@ -219,14 +227,6 @@ function ThirdSection() {
                     /> */}
                 </div>
 
-                <div className="">
-                  <img
-                    width={200}
-                    className="absolute lg:w-[20rem] max-sm:w-[10rem] opacity-30 right-[85rem] max-sm:right-[-10px]  z-[-10] max-sm:z-[-1] bottom-[-120px]"
-                    src={bgShadow3}
-                    alt=""
-                  />
-                </div>
                 <p className="max-md:p-8 max-sm:p-4 z-10 max-sm:-z-[10] relative font-superLagend text-lg max-sm:text-xl max-sm:leading-relaxed leading-loose para_styling_center max-w-[1000px] md:leading-[43.68px]">
                   With seamless integration across devices and platforms,{" "}
                   <span className="violet_gradient">DWØPE </span>
@@ -253,11 +253,11 @@ function ThirdSection() {
                 </p>
               </div>
 
-              <div className="avatar-box flex flex-wrap justify-between max-sm:justify-center gap-10 max-sm:gap-4  max-sm:p-2 max-w">
+              <div className="avatar-box flex flex-wrap justify-center max-sm:justify-center sm:gap-y-6 md:gap-10 gap-16 p-4 lg:p-8 xl:p-0">
                 {Cards.map((item, index) => (
                   <div
                     key={item.id}
-                    className="av-cards rounded-2xl w-[360px]  max-sm:w-[160px] bg-[#dadada]"
+                    className="av-cards rounded-2xl w-[360px]  bg-[#dadada]"
                   >
                     <div className="overflow-hidden">
                       <img

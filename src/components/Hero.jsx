@@ -29,7 +29,7 @@ function Hero() {
                 </p>
               </div>
               <div className="absolute bottom-1 left-1 max-sm:left-1 max-sm:text-4xl md:text-5xl">
-                <h1 className="font-twister text-[#E4E4E4]">DWOPE</h1>
+                <h1 className="font-twister headingText">DWOPE</h1>
               </div>
             </div>
             <a href="https://dwope.works/DWOOBz" rel="noreferrer">
@@ -47,7 +47,7 @@ function Hero() {
             <h1 className="font-superLagend text-[3.2rem] max-sm:text-3xl max-sm:text-center text tracking-[0.1em]">
               Trade, Bet & Game
             </h1>
-            <h1 className="font-twister text-[3.2rem] max-sm:text-[1.2rem] linear-sub text-transparent max-sm:hidden headingText">
+            <h1 className="font-twister text-[3.2rem] max-sm:text-[1.2rem] linear-sub text-transparent  headingText">
               In One Web3 MMO Super APP
             </h1>
           </div>

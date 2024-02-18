@@ -11,48 +11,43 @@
 // import av1 from "../cards/image29.png"
 // import av4 from "../cards/image38.png"
 
-import av3 from "../cards/bcc1.gif"
-import av5 from "../cards/bcc2.gif"
-import av2 from "../cards/bcca.gif"
-import av1 from "../cards/bccb.gif"
-import av4 from "../cards/chey.gif"
-import av6 from "../cards/exp.gif"
+import av1 from "../cards/card1.png";
+import av2 from "../cards/card2.png";
+import av3 from "../cards/card3.png";
+import av4 from "../cards/card4.png";
+import av5 from "../cards/card5.png";
+import av6 from "../cards/card6.png";
 
 export const cardData = [
-//     { position: [0, 0, 0], path: bcp1 },
-//     { position: [2, 0, 0], path: bcp2 },
-//     { position: [-2, 0, 0], path: bcp3 },
-//     { position: [-2, 0, 0], path: bcp4 },
-//     { position: [-2, 0, 0], path: bcp5 },
-//     { position: [-2, 0, 0], path: bcp6 },
-{
-    id:242,
-    image: av4
-},
+  //     { position: [0, 0, 0], path: bcp1 },
+  //     { position: [2, 0, 0], path: bcp2 },
+  //     { position: [-2, 0, 0], path: bcp3 },
+  //     { position: [-2, 0, 0], path: bcp4 },
+  //     { position: [-2, 0, 0], path: bcp5 },
+  //     { position: [-2, 0, 0], path: bcp6 },
 
-{
-
-    id:49,
-    image: av6
-},        
-{
-            id:404,
-            image: av1
-        },
-        {
-            id:576,
-            image: av2
-        },
-        {
-            id:242,
-            image: av3
-        },
-        {
-
-            id:499,
-            image: av5
-        },
-        
-        
-
-]
+  {
+    id: 242,
+    image: av1,
+  },
+  {
+    id: 49,
+    image: av2,
+  },
+  {
+    id: 404,
+    image: av3,
+  },
+  {
+    id: 576,
+    image: av4,
+  },
+  {
+    id: 242,
+    image: av5,
+  },
+  {
+    id: 499,
+    image: av6,
+  },
+];
