@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../components/Video/9f4e2d1fc36835123a4b3e8cc10017bc.gif";
 import BG1 from "../components/Video/Pearl_Texture_2.mp4";
 import hero_logo from "../components/images/hero_logo.png";
 
@@ -20,26 +19,7 @@ function Hero() {
           </div>
         </div>
         {/*  */}
-        <div className="logo z-[10] perfectWidth">
-          <div className="absolute flex justify-between items-center NavperfectWidth mx-auto mt-4 sm:px-12 lg:px-0">
-            <div className="relative flex items-center justify-center font-twist text-5xl tracking-tighter">
-              <div>
-                <p className="linear-wipe font-twister max-sm:text-4xl max-sm:text-center text-5xl text-transparent  md:text-5xl">
-                  DWOPE
-                </p>
-              </div>
-              <div className="absolute bottom-1 left-1 max-sm:left-1 max-sm:text-4xl md:text-5xl">
-                <h1 className="font-twister headingText">DWOPE</h1>
-              </div>
-            </div>
-            <a href="https://dwope.works/DWOOBz" rel="noreferrer">
-              <img
-                className="h-20  max-sm:max-h-14 relative "
-                src={logo}
-                alt="logo"
-              />
-            </a>
-          </div>
+        <div className=" perfectWidth ">
           <div className="flex flex-col  gap-4 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
             <div>
               <img src={hero_logo} alt="logo" />

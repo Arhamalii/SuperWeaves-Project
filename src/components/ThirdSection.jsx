@@ -82,7 +82,7 @@ function ThirdSection() {
       </div>
 
       <div className="trade-sec relative">
-        <div className="-z-10 left-0 top-[7rem] h-[400px] w-full overflow-hidden">
+        <div className="-z-[100] left-0 top-[7rem] h-[400px] w-full overflow-hidden">
           <video
             className=" min-h-full min-w-full object-cover"
             src={banner}
