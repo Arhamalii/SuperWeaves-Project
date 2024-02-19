@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import besumz from "../components/icons/besum2.png";
-import lukso from "../components/icons/lukso_2.png";
-import twitter from "../components/icons/twitter2.png";
+import besumz from "../components/icons/besumz3.png";
+import lukso from "../components/icons/luksoo3.png";
+import twitter from "../components/icons/twitter4.png";
 import Hero from "./Hero";
 import Meta from "./Meta";
 import ThirdSection from "./ThirdSection";
@@ -28,11 +28,11 @@ function Home() {
   return (
     <>
       <div
-        className={`w-[100vw] h-[7rem] fixed  flex justify-center items-center  z-[100] ${
+        className={`w-[100vw] h-[100px] fixed  flex justify-center items-center  z-[100] ${
           scrolled && "backdrop-blur-xl"
-        }`}
+        } `}
       >
-        <div className="fixed -top-[0.01rem] flex justify-between items-center NavperfectWidth mx-auto mt-4 sm:px-12 lg:px-0 z-[100]">
+        <div className="fixed -top-[.36rem] flex justify-between items-center NavperfectWidth mx-auto mt-4 sm:px-12 lg:px-0 z-[100]">
           <div className="relative flex items-center justify-center font-twist text-5xl tracking-tighter">
             <div>
               <p className="font-twister text-5xl max-sm:text-center md:text-6xl text-transparent headingText">
@@ -49,7 +49,7 @@ function Home() {
               href="https://twitter.com/DWOPEs"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={twitter} alt="" class="h-6 w-6 object-contain" />
             </a>
@@ -58,7 +58,7 @@ function Home() {
               href="https://wallet.universalprofile.cloud/0xaDD8E3947A934467afd9A6588e2c19ac89c1e15a"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={lukso} alt="" class="h-6 w-6 object-contain" />
             </a>
@@ -67,14 +67,14 @@ function Home() {
               href="https://universal.page/collections/0x7c6118ba719a62d40ce6c9580f96306a558cda6f"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={besumz} alt="" class="h-6 w-6 object-contain" />
             </a>
 
             <a href="https://dwope.works/DWOOBz" rel="noreferrer">
               <img
-                className="h-20  max-sm:max-h-14 relative "
+                className="h-20 p-2 max-sm:max-h-14 relative "
                 src={logo}
                 alt="logo"
               />

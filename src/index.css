@@ -533,6 +533,15 @@ p {
   height: 400px;
   width: 160px;
 }
+
+@media screen and (min-width: 1800px) {
+  .bgShadownConq {
+    top: 96rem;
+    height: 420px;
+    width: 180px;
+  }
+}
+
 .bgShadow2 {
   position: absolute;
   top: 335rem;

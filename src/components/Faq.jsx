@@ -139,9 +139,9 @@ function Faq() {
                       enter="transition duration-500 ease"
                       enterFrom="opacity-0 scale-95"
                       enterTo="opacity-100 scale-100"
-                      leave="transition duration-75 ease-out"
-                      leaveFrom="opacity-100 scale-100"
-                      leaveTo="opacity-0 scale-95"
+                      leave="transition duration-500 ease"
+                      leaveFrom="opacity-100 scale-100 duration-500 ease"
+                      leaveTo="opacity-0 scale-95 ease"
                     >
                       {(ref) => (
                         <div className="faqBg p-10  backdrop-blur-sm font-superLagend rounded-[25px] text-start text-[32px] ">
