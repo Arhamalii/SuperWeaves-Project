@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Hero from "./Hero";
 import Meta from "./Meta";
 import ThirdSection from "./ThirdSection";
-import logo from "./Video/9f4e2d1fc36835123a4b3e8cc10017bc.gif";
+import logo from "./Video/public (1).gif";
 
 function Home() {
   const [scrolled, setScrolled] = useState(false);

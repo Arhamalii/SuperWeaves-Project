@@ -79,7 +79,7 @@ function Meta() {
                   The Metaverse's <br />
                   Game-Changer
                 </h1>
-                <p className="w-[35rem] text-[1.37rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-4 max-sm:text-xl max-sm:p-4  max-sm:leading-relaxed text-lg font-superLagend">
+                <p className="w-[35rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-4 max-sm:text-xl max-sm:p-4  max-sm:leading-relaxed text-[1.37rem] font-superLagend">
                   Welcome to <span className="pink_colour">SuperWeaves</span>,
                   the first application built by{" "}
                   <span className="violet_gradient">DWØPE.</span> This super app

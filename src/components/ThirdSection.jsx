@@ -1,7 +1,6 @@
 import React from "react";
 import banner from "../components/Video/Pearl_Texture_2.mp4";
 import bg_2 from "../components/backgrounds/bg_2.png";
-import bg_4 from "../components/backgrounds/bg_4.png";
 import bg_5 from "../components/backgrounds/bg_5.png";
 import bg_shadow from "../components/bg/Ellipse 30.png";
 import luksoPng from "../components/images/lukso_png.png";
@@ -39,13 +38,10 @@ function ThirdSection() {
         />
       </div>
       {/* right backgrounds */}
-      <div className="overflow-hidden max-w-[100vw]">
-        <img
-          className="w-[170px] absolute left-[85rem] top-[69rem]"
-          src={bg_4}
-          alt=""
-        />
-      </div>
+      <div className="bgShadownConq"></div>
+
+      <div className="bgShadow2"></div>
+      <div className="bgShadow3"></div>
 
       <div className="StatrBg">
         {/* <img
@@ -90,8 +86,8 @@ function ThirdSection() {
             loop
           ></video>
         </div>
-        <div className="absolute tarnsform_center top-[10.6rem] text-center flex flex-col ">
-          <h1 className=" relative top-24 transform center headingText max-sm:p-4 font-superLagend text-4xl md:text-5xl max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px]">
+        <div className="absolute tarnsform_center top-[9.6rem] text-center flex flex-col ">
+          <h1 className=" relative top-24 transform center headingText max-sm:p-4 font-superLagend text-4xl md:text-5xl max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px] md:leading-[1.4]">
             Powered By
           </h1>
           <img
@@ -202,7 +198,7 @@ function ThirdSection() {
                   loop
                 ></video>
               </div>
-              <div className="absolute tarnsform_center top-[13.6rem] text-center grid place-items-center">
+              <div className="absolute tarnsform_center top-[12rem] text-center grid place-items-center">
                 <h1 className=" relative top-10 transform center headingText max-sm:p-4 font-superLagend md:text-[64px] max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px]">
                   Running On
                 </h1>
@@ -284,7 +280,7 @@ function ThirdSection() {
                 ))}
 
                 <div className="relative my-[3rem] md:my-[4.2rem] ">
-                  <p className="max-md:p-6  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling ">
+                  <p className="max-md:p-6  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling sm:text-[24px]">
                     <span>
                       {/* <img
                         width={800}
@@ -302,7 +298,7 @@ function ThirdSection() {
                     platform. From in-game advantages to VIP event access, your
                     <span className="green_gradient"> NFTs </span> serve as the
                     gateway to having the
-                    <span className="violet_gradient">DWØPE</span>st experience
+                    <span className="violet_gradient"> DWØPE</span>st experience
                     in SuperWeaves.
                   </p>
                 </div>

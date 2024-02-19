@@ -175,9 +175,11 @@ body {
 }
 
 .card-title {
-  background: linear-gradient(to right, #000000, #a4047c);
+  background: linear-gradient(to right, #000000, #a4047c, #000, #a4047c);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
 }
 
 .card-para {
@@ -318,18 +320,22 @@ p {
   -webkit-background-clip: text;
 }
 .pink_colour {
-  background: linear-gradient(0deg, #fe005b, #fe005b);
+  background: linear-gradient(90deg, #fe005b, #fe4c8c, #fe005b, #fe4c8c);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
 }
 
 .violet_gradient {
-  background: linear-gradient(94.85deg, #a4047c, #8f8ecc);
+  background: linear-gradient(94.85deg, #a4047c, #8f8ecc, #a4047c, #8f8ecc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
 }
 .tarnsform_center {
   left: 50%;
@@ -358,9 +364,11 @@ p {
 
 .green_gradient {
   background: #017e3d;
-  background: linear-gradient(93.63deg, #017e3d, #000000);
+  background: linear-gradient(93.63deg, #017e3d, #000000, #017e3d, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
 }
 
 .headingText {
@@ -454,7 +462,7 @@ p {
     width: 95vw;
   }
 }
-
+/* background images  */
 .faqRBg1 {
   position: absolute;
   bottom: 24rem;
@@ -495,12 +503,46 @@ p {
 
 .StatrBg {
   position: absolute;
-  top: 286rem;
-  right: -84px;
+  top: 136rem;
+  right: 0;
   background: url("./components/backgrounds/bg_3.png");
-  background-position: right;
   background-repeat: no-repeat;
-  background-size: auto;
   height: 70%;
-  width: 300px;
+  width: 240px;
+}
+
+.bgShadownConq {
+  position: absolute;
+  top: 70rem;
+  right: 0;
+  background: url("./components/backgrounds/bg_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 160px;
+}
+.bgShadow2 {
+  position: absolute;
+  top: 335rem;
+  z-index: -99;
+  right: -50px;
+  background: url("./components/bg/Ellipse3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.bgShadow3 {
+  position: absolute;
+  top: 176rem;
+  z-index: -99;
+  right: -50px;
+  background: url("./components/bg/Ellipse\ 4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  width: 500px;
+  opacity: 0.8;
 }
