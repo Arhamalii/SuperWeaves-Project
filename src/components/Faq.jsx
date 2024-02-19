@@ -136,7 +136,7 @@ function Faq() {
                     </div>
                     <Transition
                       show={activeIndex === index}
-                      enter="transition duration-100 ease-out"
+                      enter="transition duration-500 ease"
                       enterFrom="opacity-0 scale-95"
                       enterTo="opacity-100 scale-100"
                       leave="transition duration-75 ease-out"

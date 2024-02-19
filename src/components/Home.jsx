@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import besumz from "../components/icons/besum2.png";
+import lukso from "../components/icons/lukso_2.png";
+import twitter from "../components/icons/twitter2.png";
 import Hero from "./Hero";
 import Meta from "./Meta";
 import ThirdSection from "./ThirdSection";
@@ -40,13 +43,43 @@ function Home() {
               <h1 className="font-twister text-[#E4E4E4]">DWOPE</h1>
             </div>
           </div>
-          <a href="https://dwope.works/DWOOBz" rel="noreferrer">
-            <img
-              className="h-20  max-sm:max-h-14 relative "
-              src={logo}
-              alt="logo"
-            />
-          </a>
+
+          <div className="flex flex-row items-center justify-end  gap-5  text-white  lg:w-2/6">
+            <a
+              href="https://twitter.com/DWOPEs"
+              rel="noreferrer"
+              target="_blank"
+              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+            >
+              <img src={twitter} alt="" class="h-6 w-6 object-contain" />
+            </a>
+
+            <a
+              href="https://wallet.universalprofile.cloud/0xaDD8E3947A934467afd9A6588e2c19ac89c1e15a"
+              rel="noreferrer"
+              target="_blank"
+              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+            >
+              <img src={lukso} alt="" class="h-6 w-6 object-contain" />
+            </a>
+
+            <a
+              href="https://universal.page/collections/0x7c6118ba719a62d40ce6c9580f96306a558cda6f"
+              rel="noreferrer"
+              target="_blank"
+              class="cursor-pointer rounded-full border-2 border-[#353533] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+            >
+              <img src={besumz} alt="" class="h-6 w-6 object-contain" />
+            </a>
+
+            <a href="https://dwope.works/DWOOBz" rel="noreferrer">
+              <img
+                className="h-20  max-sm:max-h-14 relative "
+                src={logo}
+                alt="logo"
+              />
+            </a>
+          </div>
         </div>
       </div>
 

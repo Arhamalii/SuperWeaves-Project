@@ -8,7 +8,7 @@ function Meta() {
   const { nodes, materials } = useGLTF(bcp10);
   return (
     <>
-      <div className="absolute w-screen h-[300px] top-[51rem] -z-10 left-[-90px] md:left-[-60px] ">
+      <div className="absolute w-screen h-[300px] top-[51rem] -z-10 left-[-90px] md:left-[-60px] xxl:top-[71rem] xxl:left-[0px]">
         <img
           className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
           src={bg_1}

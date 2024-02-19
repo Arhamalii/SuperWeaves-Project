@@ -512,7 +512,17 @@ p {
   height: 70%;
   width: 240px;
 }
-
+@media screen and (min-width: 1800px) {
+  .StatrBg {
+    position: absolute;
+    top: 156rem;
+    right: 0;
+    background: url("./components/backgrounds/bg_3.png");
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 240px;
+  }
+}
 .bgShadownConq {
   position: absolute;
   top: 70rem;
