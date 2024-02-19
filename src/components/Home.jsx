@@ -32,11 +32,11 @@ function Home() {
         <div className="fixed -top-[0.01rem] flex justify-between items-center NavperfectWidth mx-auto mt-4 sm:px-12 lg:px-0 z-[100]">
           <div className="relative flex items-center justify-center font-twist text-5xl tracking-tighter">
             <div>
-              <p className="font-twister max-sm:text-4xl max-sm:text-center text-5xl text-transparent  md:text-5xl headingText">
+              <p className="font-twister text-5xl max-sm:text-center md:text-6xl text-transparent headingText">
                 DWOPE
               </p>
             </div>
-            <div className="absolute bottom-1 left-1 max-sm:left-1 max-sm:text-4xl md:text-5xl">
+            <div className="absolute bottom-1 left-1 max-sm:left-1 text-5xl md:text-6xl">
               <h1 className="font-twister text-[#E4E4E4]">DWOPE</h1>
             </div>
           </div>

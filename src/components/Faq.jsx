@@ -14,31 +14,39 @@ function Faq() {
 
   const faqs = [
     {
-      question: "Why are there 6 collections ?",
+      question:
+        "What makes SuperWeaves different from other Metaverse platforms?",
       answer:
-        "Keep in mind that all these collection will be available in the same mint (our one and only). Regardless, each collection are entitled to different perks (in the SteakStation , and the DreamWave ), there will also be perks to holding multiple",
+        "SuperWeaves is a comprehensive Web3 ecosystem that integrates trading, betting, and social gaming. Our cross-chain functionality and community-centric approach provide a unique, all-in-one experience.",
     },
     {
-      question: "What's the mint price ?",
+      question:
+        "How does DWØPE ensure the security of transactions within SuperWeaves?",
       answer:
         "Security is paramount at DWØPE. We employ advanced measures for asset and information protection, ensuring your trading, betting, and gaming activities are safe and secure.",
     },
     {
-      question: "W E N ?",
+      question: "Can I manage multiple blockchain wallets with SuperWeaves?",
       answer:
         "Absolutely. DWØPE supports interoperable wallets, allowing you to connect and manage your assets across different blockchains effortlessly, all within our app.",
     },
     {
-      question: "What's this DreamWave game all about ?",
+      question: "What betting opportunities does SuperWeaves offer?",
       answer:
         "SuperWeaves offers a dynamic betting landscape with varied pools driven by real-time events in the Web3 space. Bet on outcomes across a range of activities, with the chance to earn substantial rewards.",
     },
     {
-      question: "Is there a Whitelist ?",
+      question:
+        "How does DWØPE ensure fair play and transparency in betting and gaming?",
       answer:
         "DWØPE is committed to fair play and transparency across all aspects of our platform. By leveraging blockchain technology, every bet, trading card game outcome, and transaction is recorded on a decentralized ledger, ensuring immutable proof of all activities. This not only guarantees fairness but also provides our users with complete visibility and trust in the integrity of our betting and gaming environments.",
     },
-
+    {
+      question:
+        "What makes DWØPE's DWOOBz NFT collection unique in the digital marketplace?",
+      answer:
+        "DWØPE's NFTs stand out in the digital marketplace for their intrinsic utility and integration within our ecosystem. From granting access to exclusive content and areas within the metaverse to offering enhancements in our gaming and betting modules, our NFTs are designed to enrich the user experience, making them a valuable asset for both collectors and active platform participants. ",
+    },
     //
     // Add more FAQ items as needed
   ];
