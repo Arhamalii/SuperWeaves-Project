@@ -14,7 +14,7 @@ function ThirdSection() {
   return (
     <>
       {/* left backgrounds */}
-      <div className="absolute w-screen h-[300px] top-[156rem] -z-10 left-[-90px] md:left-[-40px] ">
+      <div className="absolute w-screen h-[300px] top-[156rem] -z-10 left-[-90px] md:left-[-40px] xxl:top-[180rem] xxl:left-[10px] ">
         <img
           className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
           src={bg_2}
@@ -22,15 +22,15 @@ function ThirdSection() {
         />
       </div>
 
-      <div className="absolute w-screen h-[300px] top-[307rem] -z-10 left-[-90px] md:left-[-20px] ">
+      <div className="absolute w-screen h-[300px] top-[278rem] -z-10 left-[-90px] md:left-[-20px] xxl:top-[299rem] xxl:left-[20px] ">
         <img
-          className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
+          className="max-sm:top-[26rem] w-[260px] max-sm:-z-10"
           src={bg_5}
           alt=""
         />
       </div>
 
-      <div className="absolute w-screen h-[300px] top-[270rem] -z-20 left-[-90px] md:left-[0px] opacity-50">
+      <div className="absolute w-screen h-[300px] top-[270rem] -z-20 left-[-90px] md:left-[0px] opacity-50 ">
         <img
           className="max-sm:top-[26rem] w-[600px]  max-sm:-z-10"
           src={bg_shadow}
@@ -138,15 +138,14 @@ function ThirdSection() {
                 <div className="polygon absolute right-96">
                   {/* <img className="mr-60" src={pinkBlue} alt="" /> */}
                 </div>
-                <div className="cards relative flex max-sm:bottom-[200px] max-sm:top-[2.4rem]">
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[6rem] place-items-center">
+                <div className="cards relative flex max-sm:bottom-[200px] max-sm:top-[2.4rem] px-12">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[6rem] gap-x-[4rem] place-items-center">
                     {cardData.map((id, index) => (
                       <div className="card  max-sm:w-[200px] max-sm:pr-8">
                         <img
                           // // className={
                           // //   index === 0 || 5 ? `w-[320px] h-[300px]` : ""
                           // // }
-                          className="h-[260px] min-w-[253px] "
                           src={id.image}
                           alt=""
                         />

@@ -493,14 +493,28 @@ p {
 
 #dwopRbg {
   position: absolute;
-  top: 286rem;
-  right: -84px;
+  top: 258rem;
+  right: -44px;
   background: url("./components/backgrounds/bg_6.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: auto;
-  height: 70%;
-  width: 300px;
+  background-size: contain;
+  height: 350px;
+  width: 350px;
+}
+
+@media screen and (min-width: 1800px) {
+  #dwopRbg {
+    position: absolute;
+    top: 273rem;
+    right: -30px;
+    background: url("./components/backgrounds/bg_6.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 70%;
+    width: 300px;
+  }
 }
 
 .StatrBg {

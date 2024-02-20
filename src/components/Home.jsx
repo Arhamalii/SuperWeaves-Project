@@ -49,7 +49,7 @@ function Home() {
               href="https://twitter.com/DWOPEs"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={twitter} alt="" class="h-6 w-6 object-contain" />
             </a>
@@ -58,7 +58,7 @@ function Home() {
               href="https://wallet.universalprofile.cloud/0xaDD8E3947A934467afd9A6588e2c19ac89c1e15a"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={lukso} alt="" class="h-6 w-6 object-contain" />
             </a>
@@ -67,7 +67,7 @@ function Home() {
               href="https://universal.page/collections/0x7c6118ba719a62d40ce6c9580f96306a558cda6f"
               rel="noreferrer"
               target="_blank"
-              class="cursor-pointer rounded-full border-2 border-[#232323] mx-2 px-4 py-1 text-xl duration-200 hover:scale-110"
+              class="cursor-pointer rounded-full border-2 border-[#232323] px-4 py-1 text-xl duration-200 hover:scale-110"
             >
               <img src={besumz} alt="" class="h-6 w-6 object-contain" />
             </a>
