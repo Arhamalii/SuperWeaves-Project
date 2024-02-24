@@ -20,14 +20,14 @@ function Hero() {
         </div>
         {/*  */}
         <div className=" perfectWidth ">
-          <div className="flex flex-col  gap-4 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
-            <div>
+          <div className="flex flex-col gap-8 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
+            <div className="px-4 md:px-0">
               <img src={hero_logo} alt="logo" />
             </div>
-            <h1 className="font-superLagend text-[3.2rem] max-sm:text-3xl max-sm:text-center tradeBetGameText tracking-[0.1em]">
+            <h1 className="font-superLagend text-[1.675rem] sm:text-3xl text-center lg:text-[3.2rem] tradeBetGameText tracking-[0.1em] pt-0 lg:pt-1 ">
               Trade, Bet & Game
             </h1>
-            <h1 className="font-twister text-[3.2rem] max-sm:text-[1.2rem] linear-sub text-transparent  headingText">
+            <h1 className="font-twister  text-[1.2rem] sm:text-[2rem] lg:text-[3.2rem] linear-sub text-transparent  headingText  pt-0 lg:pt-1">
               In One Web3 MMO Super APP
             </h1>
           </div>
