@@ -321,6 +321,50 @@ p {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+/* md: */
+@media screen and (max-width: 768px) {
+  .para_styling {
+    font-size: 19px;
+    line-height: 38px;
+    text-align: justify;
+  }
+
+  .para_styling_center {
+    font-size: 19px;
+    line-height: 38px;
+    text-align: center;
+  }
+}
+/* sm: */
+@media screen and (max-width: 640px) {
+  .para_styling {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+  }
+
+  .para_styling_center {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .para_styling {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: justify;
+  }
+
+  .para_styling_center {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
 .pink_colour {
   background: linear-gradient(90deg, #fe005b, #fe4c8c, #fe005b, #fe4c8c);
   -webkit-background-clip: text;
@@ -393,7 +437,25 @@ p {
   text-align: left;
   color: #353535;
 }
-/*  */
+/*responsive  */
+
+@media screen and (max-width: 640px) {
+  .foooter_light {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .foooter_light {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mtOnCustom {
+    margin-top: -1rem;
+  }
+}
 
 .video-text-container {
   position: relative;

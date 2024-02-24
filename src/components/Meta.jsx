@@ -32,16 +32,15 @@ function Meta() {
           alt="bg1"
         /> */}
         </div>
-        <div className="">
-          <div className="relative top-24 max-sm:top-[-50px]">
-            <div className="flex justify-center flex-col lg:flex-row gap-20 max-sm:flex max-sm:justify-normal max-sm:gap-24 p-8 lg:p-0">
-              <div className="card-side">
-                <img
-                  className="relative w-[15rem] max-sm:mt-12 z-10 mx-auto"
-                  src={card}
-                  alt="card sample"
-                />
-                {/* <Canvas style={{height:"400px", width:"300px",position:"relative", zIndex:1}} camera={{ fov: 64,getViewBounds:50 ,position: [-2, 2, 0] }}>
+        <div className="relative top-24 max-sm:top-[-50px]">
+          <div className="flex justify-center flex-col lg:flex-row gap-20 max-sm:flex max-sm:justify-normal max-sm:gap-24 py-10 px-4 lg:px-0 lg:py-0">
+            <div className="card-side">
+              <img
+                className="relative w-[15rem] max-sm:mt-12 z-10 mx-auto"
+                src={card}
+                alt="card sample"
+              />
+              {/* <Canvas style={{height:"400px", width:"300px",position:"relative", zIndex:1}} camera={{ fov: 64,getViewBounds:50 ,position: [-2, 2, 0] }}>
                   <ambientLight intensity={5} />
                   <OrbitControls enableZoom={true} />
                   <group >
@@ -67,28 +66,27 @@ function Meta() {
       
                 </Canvas> */}
 
-                {/* ball bg  */}
+              {/* ball bg  */}
 
-                <h1 className="font-superLagend text-center mt-10 max-sm:text-center card-title text-2xl ">
-                  ExpStrife
-                </h1>
-              </div>
+              <h1 className="font-superLagend text-center mt-10 max-sm:text-center card-title text-2xl ">
+                ExpStrife
+              </h1>
+            </div>
 
-              <div className="text-side">
-                <h1 className="headingText max-sm:p-4 gap-4  font-superLagend flex-col items-center text-[42px] leading-[48.88px] max-sm:text-xl tracking-[0.11em]">
-                  The Metaverse's <br />
-                  Game-Changer
-                </h1>
-                <p className="w-[35rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-4 max-sm:text-xl max-sm:p-4  max-sm:leading-relaxed text-[1.37rem] font-superLagend">
-                  Welcome to <span className="pink_colour">SuperWeaves</span>,
-                  the first application built by{" "}
-                  <span className="violet_gradient">DWØPE.</span> This super app
-                  will revolutionize the way you engage with Web3. Our platform
-                  combines trading, betting, and social gaming in one seamless
-                  experience. Unveil a world where your digital actions have
-                  real-world results.
-                </p>
-              </div>
+            <div className="text-side">
+              <h1 className="headingText max-sm:p-4 gap-4  font-superLagend flex-col items-center  text-[24px] xsm:text-[28px] sm:text-[42px] leading-[48.88px]  tracking-[0.11em]">
+                The Metaverse's <br />
+                Game-Changer
+              </h1>
+              <p className="w-[35rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-4 max-sm:p-4 max-sm:leading-relaxed text-[.9rem] sm:text-[1rem] md:text-[1.37rem] font-superLagend ">
+                Welcome to <span className="pink_colour">SuperWeaves</span>, the
+                first application built by{" "}
+                <span className="violet_gradient">DWØPE.</span> This super app
+                will revolutionize the way you engage with Web3. Our platform
+                combines trading, betting, and social gaming in one seamless
+                experience. Unveil a world where your digital actions have
+                real-world results.
+              </p>
             </div>
           </div>
         </div>

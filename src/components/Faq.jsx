@@ -54,7 +54,7 @@ function Faq() {
   return (
     <>
       {/* faq bg left */}
-      <div className="absolute w-screen h-[300px] top-[236rem] -z-10 left-[-90px] md:left-[0px] ">
+      <div className="absolute w-screen h-[300px] top-[236rem] -z-10 left-[-90px] md:left-[0px]  hidden lg:block">
         <img
           className="max-sm:top-[26rem] w-[140px]  max-sm:-z-10"
           src={fqBG3}
@@ -62,7 +62,7 @@ function Faq() {
         />
       </div>
 
-      <div className="absolute w-screen h-[300px] bottom-[300px] -z-10 left-[-90px] md:left-[0px] ">
+      <div className="absolute w-screen h-[300px] bottom-[300px] -z-10 left-[-90px] md:left-[0px] hidden lg:block">
         <img
           className="max-sm:top-[26rem] w-[160px]  max-sm:-z-10"
           src={fqBG4}
@@ -70,7 +70,7 @@ function Faq() {
         />
       </div>
       {/* faq bg right */}
-      <div className="faqRBg2">
+      <div className="faqRBg2 hidden lg:block">
         {/* <img
           className="w-[120px] absolute left-[89rem] mb-[70rem]"
           src={fqBG1}
@@ -78,7 +78,7 @@ function Faq() {
         /> */}
       </div>
 
-      <div className="faqRBg1">
+      <div className="faqRBg1 hidden lg:block">
         {/* <img
           className="w-[120px] absolute left-[87rem] mt-[40rem]"
           src={fqBG2}
@@ -106,7 +106,7 @@ function Faq() {
         </div> */}
 
           <div>
-            <h1 className="headingText card-title font-superLagend max-sm:text-2xl text-5xl max-sm:p-2">
+            <h1 className="text-2xl xsm:text-[25px] sm:text-3xl md:text-4xl headingText card-title font-superLagend max-sm:p-2">
               Frequently Asked Questions
             </h1>
           </div>
@@ -116,7 +116,7 @@ function Faq() {
                 {faqs.map((faq, index) => (
                   <div key={index} className="flex-col max-sm:p-0 ">
                     <div
-                      className={`flex  cursor-pointer items-center justify-between rounded-2xl bg-[#353535] p-6 lg:py-8 lg:px-[2.38rem] backdrop-blur-sm text-[24px]  ${
+                      className={`flex  cursor-pointer items-center justify-between rounded-2xl bg-[#353535] p-5 sm:p-6 lg:py-8 lg:px-[2.38rem] backdrop-blur-sm max-xsm:text-[12px] text-[16px] sm:text-[20px] md:text-[24px]  ${
                         activeIndex === index && "hidden"
                       } `}
                       onClick={() => toggleAccordion(index)}
@@ -126,7 +126,7 @@ function Faq() {
                       </h3>
                       <img
                         src={dropDown}
-                        className={`transform  opacity-40 text-[#fff8f8] transition-transform duration-300 ${
+                        className={` w-[30px] sm:w-[40px] md:w-[65px] transform  opacity-40 text-[#fff8f8] transition-transform duration-300 ${
                           !activeIndex === index ? "rotate-0" : "-rotate-"
                         }`}
                         fill="none"
@@ -144,12 +144,9 @@ function Faq() {
                       // leaveTo="opacity-0 scale-95 ease"
                     >
                       {(ref) => (
-                        <div className="faqBg p-10  backdrop-blur-sm font-superLagend rounded-[25px] text-start text-[32px] ">
+                        <div className="faqBg p-6 md:p-8 lg:p-10  backdrop-blur-sm font-superLagend rounded-[25px] text-start ">
                           <div className="flex justify-between items-center">
-                            <h4
-                              className="text-[#FFC700] w-[90%]
-"
-                            >
+                            <h4 className="text-[#FFC700] w-[90%] max-xsm:text-[14px] text-[18px] sm:text-[24px] md:text-[26px] lg:text-[32px]">
                               {faq.question}
                             </h4>
 
@@ -157,7 +154,7 @@ function Faq() {
                               <img
                                 src={dropDown}
                                 alt="dropdown"
-                                className="transform  opacity-40 text-[#fff8f8] transition-transform duration-300 -rotate-180"
+                                className="transform  opacity-40 text-[#fff8f8] transition-transform duration-300 -rotate-180  w-[30px] sm:w-[40px] md:w-[65px]"
                                 onClick={() => setActiveIndex(null)}
                               />
                             </div>
@@ -165,7 +162,7 @@ function Faq() {
 
                           <p
                             ref={ref}
-                            className=" text-[12px] md:text-[18px] w-[90%]   mt-4 text-[#FFFFFF] leading-[1.64rem] "
+                            className=" max-xsm:text-[9px] text-[12px] sm:text-[14px] md:text-[18px] w-[90%]   mt-4 text-[#FFFFFF] leading-[1rem] xsm:leading-[1.24rem] sm:leading-[1.64rem] "
                           >
                             {faq.answer}
                           </p>

@@ -14,7 +14,7 @@ function ThirdSection() {
   return (
     <>
       {/* left backgrounds */}
-      <div className="absolute w-screen h-[300px] top-[156rem] -z-10 left-[-90px] md:left-[-40px] xxl:top-[180rem] xxl:left-[10px] ">
+      <div className="absolute w-screen h-[300px] top-[156rem] -z-10 left-[-90px] md:left-[-40px] xxl:top-[180rem] xxl:left-[10px] hidden lg:block ">
         <img
           className="max-sm:top-[26rem] w-[200px]  max-sm:-z-10"
           src={bg_2}
@@ -22,7 +22,7 @@ function ThirdSection() {
         />
       </div>
 
-      <div className="absolute w-screen h-[300px] top-[278rem] -z-10 left-[-90px] md:left-[-20px] xxl:top-[299rem] xxl:left-[20px] ">
+      <div className="absolute w-screen h-[300px] top-[278rem] -z-10 left-[-90px] md:left-[-20px] xxl:top-[299rem] xxl:left-[20px]  hidden lg:block">
         <img
           className="max-sm:top-[26rem] w-[260px] max-sm:-z-10"
           src={bg_5}
@@ -38,12 +38,12 @@ function ThirdSection() {
         />
       </div>
       {/* right backgrounds */}
-      <div className="bgShadownConq"></div>
+      <div className="bgShadownConq hidden lg:block"></div>
 
-      <div className="bgShadow2"></div>
-      <div className="bgShadow3"></div>
+      <div className="bgShadow2 hidden lg:block"></div>
+      <div className="bgShadow3 hidden lg:block"></div>
 
-      <div className="StatrBg">
+      <div className="StatrBg hidden lg:block">
         {/* <img
           className="w-[190px] absolute left-[83rem] top-[140rem]"
           src={bg_3}
@@ -56,16 +56,16 @@ function ThirdSection() {
           src={bg_6}
           alt=""
         /> */}
-      <div id="dwopRbg"></div>
+      <div id="dwopRbg hidden lg:block"></div>
 
       {/*  */}
       <div className="max-w-[1200px]  mx-auto ">
         <div className="p-12 max-sm:p-8 mt-[10rem] max-sm:mt-0 relative ">
-          <h1 className="font-superLagend videoText z-10  text-5xl max-sm:text-2xl text-center headingText">
+          <h1 className="font-superLagend videoText z-10 text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl  text-center headingText">
             Play, Connect, Conquer
           </h1>
 
-          <p className="text-lg text-[#333333] max-sm:text-xl max-sm:w-full lg:text-justify  mt-8 max-sm:mt-8 font-superLagend max-sm:leading-relaxed leading-loose para_styling w-[97%] mx-auto">
+          <p className="text-[#333333] max-sm:w-full lg:text-justify  mt-8 max-sm:mt-8 font-superLagend max-sm:leading-relaxed leading-loose para_styling w-[97%] mx-auto">
             The gaming experience in SuperWeaves is a place where players can
             trade, sell, or purchase <span className="green_gradient">NFT</span>{" "}
             assets directly without intermediaries. Customize your decks with a
@@ -86,7 +86,7 @@ function ThirdSection() {
             loop
           ></video>
         </div>
-        <div className="absolute tarnsform_center top-[9.6rem] text-center flex flex-col ">
+        <div className="absolute tarnsform_center top-[10.6rem] sm:top-[11.6rem] md:top-[9.6rem] text-center flex flex-col ">
           <h1 className=" relative top-24 transform center headingText max-sm:p-4 font-superLagend text-4xl md:text-5xl max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px] md:leading-[1.4]">
             Powered By
           </h1>
@@ -98,7 +98,7 @@ function ThirdSection() {
         </div>
 
         <div className="w-full flex justify-center items-center">
-          <p className="font-superLagend lg:relative lg:mt-28 max-sm:mt-[2rem] max-sm:text-center  max-sm:p-6 max-w-[1050px] max-sm:z-30 max-sm:w-full max-sm:font-normal max-sm:leading-relaxed max-sm:text-lg text-[22px] leading-loose para_styling text-left max-md:p-5">
+          <p className="font-superLagend lg:relative lg:mt-28 max-sm:mt-[2rem] max-sm:text-center  max-sm:p-6 max-w-[1050px] max-sm:z-30 max-sm:w-full max-sm:font-normal max-sm:leading-relaxed leading-loose para_styling text-left max-md:p-5">
             Harness the power of the <span className="pink_colour">LUKSO</span>{" "}
             blockchain's groundbreaking LSPs to engage in secure, and truly
             decentralized transactions that affirm your true ownership of
@@ -110,13 +110,13 @@ function ThirdSection() {
           <img className="" width={900} src={pinkBG} alt="" /> 
         </div>  */}
         <div className="relative max-sm:p-4 w-[100%] top-[108px] max-sm:top-[40px] text-center">
-          <span className="max-sm:text-2xl max-sm:p-4 text-5xl  font-superLagend headingText">
+          <span className="text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl max-sm:p-4 font-superLagend headingText">
             Strategize, Trade, Thrive
           </span>
 
           <div className="mt-8">
             <div className="text-area pt-6  text-[#333333] p-16 max-sm:p-4  max-w-[1200px] mx-auto ">
-              <p className="font-superLagend text-lg max-sm:text-xl leading-loose max-sm:leading-relaxed text-start para_styling">
+              <p className="font-superLagend leading-loose max-sm:leading-relaxed text-start para_styling">
                 Connect wallets from any network and manage your digital assets
                 with the unified precision that only our platform can provide.
                 Your assets are guarded, your identity is secure, and your
@@ -141,7 +141,7 @@ function ThirdSection() {
                 <div className="cards relative flex max-sm:bottom-[200px] max-sm:top-[2.4rem] px-12">
                   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[6rem] gap-x-[4rem] place-items-center">
                     {cardData.map((id, index) => (
-                      <div className="card  max-sm:w-[200px] max-sm:pr-8">
+                      <div className="card max-sm:w-[200px] max-sm:px-8">
                         <img
                           // // className={
                           // //   index === 0 || 5 ? `w-[320px] h-[300px]` : ""
@@ -169,11 +169,11 @@ function ThirdSection() {
             </div>
 
             <div className="max-w-[1200px] mx-auto mt-[8rem] ">
-              <h1 className="font-superLagend  z-10  text-5xl max-sm:text-2xl text-center headingText mb-[3rem]">
+              <h1 className=" text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText mb-[3rem]">
                 Bet, Win, Celebrate
               </h1>
 
-              <p className="max-md:p-4 text-[#333333] text-[23px] z-10 font-semibold max-sm:font-normal font-superLagend max-sm:text-lg max-sm:text-left leading-loose max-sm:leading-relaxed max-w-[1050px] para_styling mx-auto">
+              <p className="max-md:p-4 text-[#333333]  z-10 font-semibold max-sm:font-normal font-superLagend max-sm:text-left leading-loose max-sm:leading-relaxed max-w-[1050px] para_styling mx-auto">
                 At <span className="violet_gradient">DWØPE,</span> we elevate
                 betting to an art form with our diverse range of prediction
                 pools. From the movements in the financial markets to the
@@ -198,13 +198,13 @@ function ThirdSection() {
                 ></video>
               </div>
               <div className="absolute tarnsform_center top-[12rem] text-center grid place-items-center">
-                <h1 className=" relative top-10 transform center headingText max-sm:p-4 font-superLagend md:text-[64px] max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px]">
+                <h1 className=" relative top-10 transform center headingText max-sm:p-3 font-superLagend text-[28px] sm:text-[40px] md:text-[50px] lg:text-[64px]   tracking-wide max-w-[1000px]">
                   Running On
                 </h1>
                 <img
                   src={unrealPng}
                   alt="lukso"
-                  className="mt-10 h-[100px] w-[420px] lg:max-w-[420px] lg:h-[130px]"
+                  className="mt-10 h-[100px] max-w-[420px] lg:h-[130px]"
                 />
               </div>
             </div>
@@ -220,7 +220,7 @@ function ThirdSection() {
                     /> */}
                 </div>
 
-                <p className="max-md:p-8 max-sm:p-4 z-10 max-sm:-z-[10] relative font-superLagend text-lg max-sm:text-xl max-sm:leading-relaxed leading-loose para_styling_center max-w-[1000px] md:leading-[43.68px]">
+                <p className="max-md:p-8 max-sm:p-4 z-10 max-sm:-z-[10] relative font-superLagend max-sm:leading-relaxed leading-loose para_styling_center max-w-[1000px] md:leading-[43.68px]">
                   With seamless integration across devices and platforms,{" "}
                   <span className="violet_gradient">DWØPE </span>
                   ensures that your betting experience is fluid, intuitive, and
@@ -232,10 +232,10 @@ function ThirdSection() {
                 </p>
               </div>
               <div className="text-area mt-[6rem] md:mt-[8rem]">
-                <h1 className="font-superLagend  z-10  text-5xl max-sm:text-2xl text-center headingText">
+                <h1 className="text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText">
                   The DWØPE NFT Experience
                 </h1>
-                <p className="p-16 text-[#333333] max-sm:p-4 font-superLagend text-lg max-sm:text-xl max-sm:leading-relaxed leading-loose para_styling">
+                <p className="p-16 text-[#333333] max-sm:p-4 font-superLagend max-sm:leading-relaxed leading-loose para_styling">
                   Embrace the diversity of{" "}
                   <span className="violet_gradient"> DWØPE's </span>{" "}
                   <span className="green_gradient">NFT </span>
@@ -250,17 +250,17 @@ function ThirdSection() {
                 {Cards.map((item, index) => (
                   <div
                     key={item.id}
-                    className="av-cards rounded-2xl w-[360px]  bg-[#dadada]"
+                    className="av-cards rounded-2xl w-[300px] md:w-[360px]  bg-[#dadada]"
                   >
                     <div className="overflow-hidden">
                       <img
-                        className="object-cover ease-in duration-500 rounded-2xl bg-no-repeat bg-center h-[311px]"
+                        className="object-cover ease-in duration-500 rounded-2xl bg-no-repeat bg-center h-[250px] md:h-[311px]"
                         width={360}
                         src={item.image}
                         alt="av"
                       />
                     </div>
-                    <div className="data-sec text-[#e0dede] px-5 py-5 max-sm:py-1">
+                    <div className="data-sec text-[#e0dede] p-3 md:py-5">
                       <div className="flex justify-between max-sm:gap-2">
                         <span className="font-superLagend headingText text-[30px] max-sm:text-[20px]">
                           {item.title}
@@ -279,7 +279,7 @@ function ThirdSection() {
                 ))}
 
                 <div className="relative my-[3rem] md:my-[4.2rem] ">
-                  <p className="max-md:p-6  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling sm:text-[24px]">
+                  <p className="max-md:p-6  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling ">
                     <span>
                       {/* <img
                         width={800}
@@ -288,7 +288,7 @@ function ThirdSection() {
                         alt=""
                       /> */}
                     </span>
-                    Trade, auction, and leverage your{" "}
+                    Trade, auction, and leverage your
                     <span className="green_gradient">NFTs</span> in a
                     player-driven market that values rarity, utility, and the
                     story behind each piece. Beyond their visual appeal, these
@@ -301,11 +301,9 @@ function ThirdSection() {
                     in SuperWeaves.
                   </p>
                 </div>
-
-                <Faq />
-                <div className=""></div>
-                <Footer />
               </div>
+              <Faq />
+              <Footer />
             </div>
           </div>
         </div>
