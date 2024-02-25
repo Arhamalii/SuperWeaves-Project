@@ -100,7 +100,7 @@ function Faq() {
       <div className="absolute max-sm:hidden  right-[-20rem] opacity-30 bottom-[-150px] rotate-45 overflow-hidden">
         <img width={150} src={fl4} alt="" />
       </div> */}
-        <div className="flex flex-col justify-center relative items-center gap-14 ">
+        <div className="flex flex-col justify-center relative items-center gap-[.5rem] md:gap-14 ">
           {/* <div className="absolute left-[-600px]">
           <img src={yellowBG} alt="" />
         </div> */}

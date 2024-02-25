@@ -60,7 +60,7 @@ function ThirdSection() {
 
       {/*  */}
       <div className="max-w-[1200px]  mx-auto ">
-        <div className="p-12 max-sm:p-8 mt-[10rem] max-sm:mt-0 relative ">
+        <div className="p-12 max-sm:p-8 max-sm:pt-0 mt-[10rem] max-sm:mt-0 relative ">
           <h1 className="font-superLagend videoText z-10 text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl  text-center headingText">
             Play, Connect, Conquer
           </h1>
@@ -139,7 +139,7 @@ function ThirdSection() {
                   {/* <img className="mr-60" src={pinkBlue} alt="" /> */}
                 </div>
                 <div className="cards relative flex max-sm:bottom-[200px] max-sm:top-[2.4rem] px-12">
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[6rem] gap-x-[4rem] place-items-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6  gap-y-[3rem] md:gap-y-[6rem] max-xsm:gap-x-[3rem] max-sm:gap-x-[1rem] gap-x-[4rem] place-items-center">
                     {cardData.map((id, index) => (
                       <div className="card max-sm:w-[200px] max-sm:px-8">
                         <img
@@ -168,8 +168,8 @@ function ThirdSection() {
               </div>
             </div>
 
-            <div className="max-w-[1200px] mx-auto mt-[8rem] ">
-              <h1 className=" text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText mb-[3rem]">
+            <div className="max-w-[1200px] mx-auto mt-[7rem] md:mt-[8rem] ">
+              <h1 className=" text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText mb-[1rem] md:mb-[3rem]">
                 Bet, Win, Celebrate
               </h1>
 
@@ -187,7 +187,7 @@ function ThirdSection() {
 
             {/*  */}
             <div className="relative ">
-              <div className="-z-10 left-0 top-[7rem] h-[400px] w-full overflow-hidden my-20 ">
+              <div className="-z-10 left-0 top-[7rem] h-[400px] w-full overflow-hidden  mt-[2.4rem] mb-20 md:my-20 ">
                 <video
                   className=" min-h-full min-w-full object-cover"
                   src={banner}
@@ -209,7 +209,7 @@ function ThirdSection() {
               </div>
             </div>
             {/*===========  */}
-            <div className="max-w-[1200px] mx-auto mt-[4rem] ">
+            <div className="max-w-[1200px] mx-auto -mt-[2rem] md:mt-[4rem] ">
               <div className="grid place-items-center md:mt-10">
                 <div>
                   {/* <img
@@ -231,7 +231,7 @@ function ThirdSection() {
                   well-played foresight.
                 </p>
               </div>
-              <div className="text-area mt-[6rem] md:mt-[8rem]">
+              <div className="text-area mt-[3rem] md:mt-[8rem]">
                 <h1 className="text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText">
                   The DWØPE NFT Experience
                 </h1>
@@ -246,7 +246,7 @@ function ThirdSection() {
                 </p>
               </div>
 
-              <div className="avatar-box flex flex-wrap justify-center max-sm:justify-center sm:gap-y-6 md:gap-10 gap-16 p-4 lg:p-8 xl:p-0">
+              <div className="avatar-box flex flex-wrap justify-center max-sm:justify-center sm:gap-y-6 md:gap-10 lg:gap-16 p-4 lg:p-8 xl:p-0">
                 <div class="grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3">
                   {Cards.map((item, index) => (
                     <div class="overflow-hidden rounded-2xl bg-[#dadada]">
@@ -290,7 +290,7 @@ function ThirdSection() {
                   ))}
                 </div>
 
-                <div className="relative my-[3rem] md:my-[4.2rem] ">
+                <div className="relative mt-[2rem] mb-[1rem] md:mb-[3rem] md:mt-[3rem] md:my-[4.2rem] ">
                   <p className="max-md:p-4  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling ">
                     <span>
                       {/* <img

@@ -33,7 +33,7 @@ function Meta() {
         /> */}
         </div>
         <div className="relative top-24 max-sm:top-[-50px]">
-          <div className="flex justify-center flex-col lg:flex-row gap-20 max-sm:flex max-sm:justify-normal max-sm:gap-24 py-10 px-4 lg:px-0 lg:py-0">
+          <div className="flex justify-center flex-col lg:flex-row gap-20 max-sm:flex max-sm:justify-normal max-sm:gap-[3rem] pt-10 md:py-10 px-4 lg:px-0 lg:py-0">
             <div className="card-side">
               <img
                 className="relative w-[15rem] max-sm:mt-12 z-10 mx-auto"
@@ -78,7 +78,7 @@ function Meta() {
                 The Metaverse's <br />
                 Game-Changer
               </h1>
-              <p className="w-[35rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-4 max-sm:p-4 max-sm:leading-relaxed text-[.9rem] sm:text-[1rem] md:text-[1.37rem] font-superLagend ">
+              <p className="w-[35rem] leading-[36px] text-justify card-para  max-sm:w-full mt-6 max-sm:mt-0 max-sm:p-4 max-sm:leading-relaxed text-[.9rem] sm:text-[1rem] md:text-[1.37rem] font-superLagend ">
                 Welcome to <span className="pink_colour">SuperWeaves</span>, the
                 first application built by{" "}
                 <span className="violet_gradient">DWØPE.</span> This super app
