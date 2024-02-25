@@ -20,7 +20,7 @@ function Hero() {
         </div>
         {/*  */}
         <div className=" perfectWidth ">
-          <div className="flex flex-col gap-8 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
+          <div className="flex flex-col gap-[0.7rem] sm:gap-4 lg:gap-8 items-center max-sm:ml-0 max-sm:w-full max-sm:items-center justify-center h-[100vh]">
             <div className="px-4 md:px-0">
               <img src={hero_logo} alt="logo" />
             </div>

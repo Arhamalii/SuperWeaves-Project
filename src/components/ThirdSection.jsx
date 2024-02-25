@@ -87,7 +87,7 @@ function ThirdSection() {
           ></video>
         </div>
         <div className="absolute tarnsform_center top-[10.6rem] sm:top-[11.6rem] md:top-[9.6rem] text-center flex flex-col ">
-          <h1 className=" relative top-24 transform center headingText max-sm:p-4 font-superLagend text-4xl md:text-5xl max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px] md:leading-[1.4]">
+          <h1 className=" relative top-24 transform center headingText max-sm:py-4 max-sm:min-w-[250px] md:min-w-[405px] font-superLagend text-4xl md:text-5xl max-md:top-[4.4rem] max-sm:top-[5.2rem] max-sm:text-2xl tracking-wide max-w-[1000px] md:leading-[1.4]">
             Powered By
           </h1>
           <img
@@ -98,7 +98,7 @@ function ThirdSection() {
         </div>
 
         <div className="w-full flex justify-center items-center">
-          <p className="font-superLagend lg:relative lg:mt-28 max-sm:mt-[2rem] max-sm:text-center  max-sm:p-6 max-w-[1050px] max-sm:z-30 max-sm:w-full max-sm:font-normal max-sm:leading-relaxed leading-loose para_styling text-left max-md:p-5">
+          <p className="font-superLagend lg:relative lg:mt-28 max-sm:mt-[2rem] max-sm:text-center  max-sm:p-4 max-w-[1050px] max-sm:z-30 max-sm:w-full max-sm:font-normal max-sm:leading-relaxed leading-loose para_styling text-left max-md:p-5">
             Harness the power of the <span className="pink_colour">LUKSO</span>{" "}
             blockchain's groundbreaking LSPs to engage in secure, and truly
             decentralized transactions that affirm your true ownership of
@@ -109,7 +109,7 @@ function ThirdSection() {
         {/* <div className="absolute max-sm:z-[-1] right-10 max-sm:right-30 max-sm:top-60">
           <img className="" width={900} src={pinkBG} alt="" /> 
         </div>  */}
-        <div className="relative max-sm:p-4 w-[100%] top-[108px] max-sm:top-[40px] text-center">
+        <div className="relative w-[100%] top-[108px] max-sm:top-[40px] text-center">
           <span className="text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl max-sm:p-4 font-superLagend headingText">
             Strategize, Trade, Thrive
           </span>
@@ -198,7 +198,7 @@ function ThirdSection() {
                 ></video>
               </div>
               <div className="absolute tarnsform_center top-[12rem] text-center grid place-items-center">
-                <h1 className=" relative top-10 transform center headingText max-sm:p-3 font-superLagend text-[28px] sm:text-[40px] md:text-[50px] lg:text-[64px]   tracking-wide max-w-[1000px]">
+                <h1 className=" relative top-10 transform center headingText max-sm:p-3 max-sm:pl-[1.5rem] font-superLagend text-[28px] sm:text-[40px] md:text-[50px] lg:text-[64px]   tracking-wide max-w-[1000px]">
                   Running On
                 </h1>
                 <img
@@ -209,8 +209,8 @@ function ThirdSection() {
               </div>
             </div>
             {/*===========  */}
-            <div className="max-w-[1200px] mx-auto mt-[8rem] ">
-              <div className="grid place-items-center mt-10">
+            <div className="max-w-[1200px] mx-auto mt-[4rem] ">
+              <div className="grid place-items-center md:mt-10">
                 <div>
                   {/* <img
                       width={800}
@@ -235,7 +235,7 @@ function ThirdSection() {
                 <h1 className="text-2xl xsm:text-[25px] sm:text-3xl md:text-5xl font-superLagend  z-10 text-center headingText">
                   The DWØPE NFT Experience
                 </h1>
-                <p className="p-16 text-[#333333] max-sm:p-4 font-superLagend max-sm:leading-relaxed leading-loose para_styling">
+                <p className="p-16 text-[#333333] max-sm:px-4 max-sm:py-9 font-superLagend max-sm:leading-relaxed leading-loose para_styling">
                   Embrace the diversity of{" "}
                   <span className="violet_gradient"> DWØPE's </span>{" "}
                   <span className="green_gradient">NFT </span>
@@ -247,39 +247,51 @@ function ThirdSection() {
               </div>
 
               <div className="avatar-box flex flex-wrap justify-center max-sm:justify-center sm:gap-y-6 md:gap-10 gap-16 p-4 lg:p-8 xl:p-0">
-                {Cards.map((item, index) => (
-                  <div
-                    key={item.id}
-                    className="av-cards rounded-2xl w-[300px] md:w-[360px]  bg-[#dadada]"
-                  >
-                    <div className="overflow-hidden">
-                      <img
-                        className="object-cover ease-in duration-500 rounded-2xl bg-no-repeat bg-center h-[250px] md:h-[311px]"
-                        width={360}
-                        src={item.image}
-                        alt="av"
-                      />
-                    </div>
-                    <div className="data-sec text-[#e0dede] p-3 md:py-5">
-                      <div className="flex justify-between max-sm:gap-2">
-                        <span className="font-superLagend headingText text-[30px] max-sm:text-[20px]">
+                <div class="grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3">
+                  {Cards.map((item, index) => (
+                    <div class="overflow-hidden rounded-2xl bg-[#dadada]">
+                      <div class="aspect-w-1 aspect-h-1">
+                        <div class="overflow-hidden rounded-xl">
+                          <img
+                            src={item.image}
+                            alt=""
+                            class="rounded-2xl object-cover"
+                          />
+                        </div>
+                      </div>
+                      {/* <div class="flex flex-col md:flex-row justify-between px-3 pt-3">
+                        <h1 class="text-xl md:text-2xl text-[#cccccc]">
                           {item.title}
-                        </span>
-                        <span className="font-superLagend headingText text-[30px] max-sm:text-[20px]">
+                        </h1>
+                        <h1 class="text-sm md:text-2xl text-[#cccccc]">
                           {item.id}
-                        </span>
+                        </h1>
                       </div>
-                      <div className="flex justify-start mt-2">
-                        <span className="new-rocker-regular text-[20px] max-sm:text-[10px] text-[#232323] customTextAlignStart ">
-                          {item.about}
-                        </span>
+                      <h1 class="p-3 text-[16px] md:text-[20px] font-[350] font-[Roc-Grotesk-light] text-[#cccccc] leading-[150%]">
+                        {item.about}
+                      </h1> */}
+
+                      <div className="data-sec text-[#e0dede] p-3 md:py-5">
+                        <div className="flex flex-col sm:flex-row justify-between">
+                          <span className="font-superLagend headingText text-[30px] max-sm:text-[18px] max-sm:text-start">
+                            {item.title}
+                          </span>
+                          <span className="font-superLagend headingText text-[30px] max-sm:text-[16px] max-sm:text-start">
+                            {item.id}
+                          </span>
+                        </div>
+                        <div className="flex justify-start mt-2">
+                          <span className="new-rocker-regular text-[20px] max-sm:text-[10px] text-[#232323] customTextAlignStart ">
+                            {item.about}
+                          </span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
 
                 <div className="relative my-[3rem] md:my-[4.2rem] ">
-                  <p className="max-md:p-6  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling ">
+                  <p className="max-md:p-4  text-left font-superLagend max-sm:leading-relaxed leading-loose  para_styling ">
                     <span>
                       {/* <img
                         width={800}
